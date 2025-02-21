@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231.53 64.5">
+  <defs>
+    <style>
+      .d {
+        fill: #ffd02e;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="Слой 1">
+    <rect class="d" x="0" y="0" width="231.53" height="64.5" rx="32.25" ry="32.25"/>
+  </g>
+</svg>

@@ -54,7 +54,7 @@
             }
         
             .chapter::after{
-                content: "_________________________________________________";
+                content: "____________________________________________________________";
                 display: block;
                 margin-top: -8px;
                 width: 88%;
@@ -80,7 +80,17 @@
                 align-items: center;
                 font-size: 40px;
                 color: rgb(0, 0, 0);
-                background-color: rgb(255, 208, 46);
+                background-color: none;
+            }
+
+            .price-number img{
+                position: absolute;
+                z-index: 1;
+                width: 340px;
+            }
+
+            .price-number span{
+                z-index: 2;
             }
 
             .present {
@@ -219,6 +229,10 @@
                 width: 50px;
                 height: 50px;
             }
+
+            .download-card-text{
+                margin-top: 5px;
+            }
         
             .bottom{
                 width: 100%;
@@ -271,7 +285,10 @@
 
         <div class="price">
             <a class="chapter">Роздрібна ціна</a>
-            <b class="price-number"><span class="Price">{Price}грн</span></b>
+            <div class="price-number">
+                <span class="Price">{Price}грн</span>
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iYiIgZGF0YS1uYW1lPSLQodC70L7QuSAyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMzEuNTMgNjQuNSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5kIHsKICAgICAgICBmaWxsOiAjZmZkMDJlOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8ZyBpZD0iYyIgZGF0YS1uYW1lPSLQodC70L7QuSAxIj4KICAgIDxyZWN0IGNsYXNzPSJkIiB4PSIwIiB5PSIwIiB3aWR0aD0iMjMxLjUzIiBoZWlnaHQ9IjY0LjUiIHJ4PSIzMi4yNSIgcnk9IjMyLjI1Ii8+CiAgPC9nPgo8L3N2Zz4=" alt="">
+            </div>
             <a class="price-PDV hide"></a>
 
         </div>
